@@ -2,6 +2,7 @@ import { useState } from "react";
 import IssuesList from "../components/IssuesList";
 import LabelList from "../components/LabelList";
 import { StatusSelect } from "../components/StatusSelect";
+
 export default function Issues() {
   const [labels, setLabels] = useState([]);
 
